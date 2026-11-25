@@ -1,6 +1,6 @@
 # TITAN v2.0.3
 
-**Native Windows x64 Unified CLI Runtime, `.ti` Scripting Language & MCP Server for AI Agents and Developers**
+**TITAN is a native Windows execution toolkit for humans and AI agents, combining 69 CLI commands, 53 MCP tools, and the programmable `.ti` language in one fast, structured, and safety-focused runtime.**
 
 > Conceived & Architected by **Nourddine Bakour** (Tetouan, Morocco)  
 > 100% Native C++20 — Built From Scratch — Zero External Runtime Dependencies — Closed-Source Proprietary Binary Distribution
