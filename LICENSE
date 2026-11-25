@@ -1,0 +1,30 @@
+TITAN Proprietary Binary Distribution License
+
+Copyright (c) 2026 Nourddine Bakour. All rights reserved.
+
+1. Ownership & Intellectual Property
+   TITAN (including the compiled `titan.exe` binary, the `.ti` language runtime,
+   its native C++20 engines, MCP server, and official documentation) is 100%
+   proprietary, closed-source software owned exclusively by Nourddine Bakour.
+   No source code license is granted.
+
+2. Permitted Use
+   You are granted a non-exclusive, revocable, royalty-free license to download,
+   install, and execute the unmodified `titan.exe` binary for personal,
+   educational, evaluation, and software development workflows (including use
+   by AI coding agents via CLI or MCP).
+
+3. Restrictions
+   You may NOT:
+   - Reverse engineer, decompile, disassemble, or attempt to reconstruct the
+     proprietary source code of TITAN;
+   - Modify, patch, or redistribute altered versions of `titan.exe`;
+   - Resell, sublicense, or represent TITAN as your own product without prior
+     written permission from Nourddine Bakour.
+
+4. Disclaimer of Warranty
+   THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL
+   THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM
+   OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF THE SOFTWARE.
