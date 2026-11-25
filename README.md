@@ -1,5 +1,7 @@
 # TITAN v2.0.3
 
+![TITAN v2.0.3 Architecture — Agent Interfaces, Native C++20 Engine, Simple & Complex Tasks](images/titan-architecture.jpg)
+
 **TITAN is a native Windows execution toolkit for humans and AI agents, combining 69 CLI commands, 53 MCP tools, and the programmable `.ti` language in one fast, structured, and safety-focused runtime.**
 
 > Conceived & Architected by **Nourddine Bakour** (Tetouan, Morocco)  
