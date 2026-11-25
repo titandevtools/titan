@@ -20,15 +20,27 @@ AI coding agents and engineers on Windows typically juggle slow PowerShell pipel
 
 ## Quick Start (Windows x64)
 
-1. Download `bin/titan.exe` (or clone/download this release repository) and add its folder to your Windows `PATH`.
-2. Verify the binary integrity against [`SHA256SUMS.txt`](SHA256SUMS.txt):
+### Option A: Windows Installer (Recommended)
+1. Download **`TITAN-2.0.3-x64.msi`** from the [v2.0.3 Release](https://github.com/titandevtools/titan/releases/tag/v2.0.3) (~3.8 MB).
+2. Run the installer to choose your installation directory (default `C:\Program Files\TITAN`) and optionally add TITAN to the Windows System `PATH` automatically (cleanly removed on uninstall).
+3. For silent automated installs:
+```powershell
+msiexec /i TITAN-2.0.3-x64.msi /qn ADDTOPATH=1
+```
+
+### Option B: Portable Binary
+1. Download `bin/titan.exe` from this repository or the release page and add its folder to your Windows `PATH`.
+2. Verify file integrity against [`SHA256SUMS.txt`](SHA256SUMS.txt):
 
 ```powershell
+Get-FileHash .\TITAN-2.0.3-x64.msi -Algorithm SHA256
+# Expected: E79AB726066A0919A4E3F2CA47E10A999033742319C40D06C2BC382F21AFED61
+
 Get-FileHash .\bin\titan.exe -Algorithm SHA256
 # Expected: D0B4F5BF77C58EE25A2237C61FC567660EC99D4FB3B421074A0CBE011447EEF1
 ```
 
-3. Verify your installation:
+3. Verify your installation in a new terminal:
 
 ```powershell
 titan info
